@@ -1,0 +1,50 @@
+.container {
+    border-radius: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-image: url("Images/gamepad.jpg");
+    font-family: Verdana;
+    color: white;
+    width: 500px;
+    margin-top: 70px;
+    margin-left: 450px;
+}
+
+
+#my-img {
+    border-radius:900px;
+    margin-left: 30px;
+}
+
+
+.lnkdin{
+    margin-bottom: 0px;
+}
+
+
+.newsletter-btn {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: 700px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 30px 10px 30px;
+    border: solid;
+    border-radius: 30px;
+}
+
+
+.input {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    border: none;
+}
+ body {
+    background-image: linear-gradient(to bottom right, white, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+ }

@@ -1,0 +1,249 @@
+body {
+    background-color: black;
+    font-family: "SUSE", sans-serif;
+}
+
+
+.head_logo {
+    margin-left: 400px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Styles */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+section {
+    margin-bottom: 10px;
+}
+
+
+.sect_1 {
+    width: 100%;
+    background-image: url(Images/sect-1.jpg);
+    padding-bottom: 60vh;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+
+.sect_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(6, 6, 65);
+    border-radius: 10px;
+    margin-bottom: -60px;
+}
+
+
+
+
+button{
+    height: 40px;
+    width: 150px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px none;
+    font-family: "SUSE", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+h1, h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.main_desc {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.grid_container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto;
+}
+
+
+
+.grid_cont1 {
+    background-image: url(Images/gamepad.jpg);
+    display: flex;
+    background-size: cover;
+}
+
+
+
+.grid_cont2 {
+    background-image: url(Images/PC.jpg);
+    display: flex;
+    background-size: cover;
+    background-color: #333;
+}
+
+
+
+.grid_cont3 {
+    background-image: url(Images/phone.jpg!f305cw);
+    display: flex;
+    background-size: cover;
+}
+
+
+
+#grid_item {
+    width: 20vw;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.link_lists {
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+
+.link_lists:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.location {
+    line-height: 15px;
+}
+
+
+.foot_sect {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*FOR THE ICONS*/
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.address {
+    font-weight: bold;
+    margin-left: 10px;
+    color: white;
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.number {
+    font-weight: bold;
+    margin-left: 10px;
+    color: white;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.e_mail {
+    font-weight: bold;
+    margin-left: 10px;
+    color: white;
+}
+
+
+/* FOR THE ANCHORS */
+.about_us {
+    line-height: 30px;
+}
+
+.contact_us {
+    line-height: 30px;
+}
+
+.social {
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+ul {
+    list-style: none;
+}
+
