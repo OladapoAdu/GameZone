@@ -328,7 +328,7 @@ section {
     align-items: center;
     background-color: rgb(6, 6, 65);
     border-radius: 10px;
-    margin-bottom: -60px;
+    margin-bottom: 30px;
 }
 
 
@@ -349,14 +349,13 @@ button{
 
 h1, h2 {
     color: white;
-    font-size: 50px;
     font-weight: bold;
     margin-left: 30px;
 }
 
 .main_desc {
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     margin-left: 30px;
 }
@@ -400,7 +399,7 @@ h1, h2 {
 
 #grid_item {
     width: 80vw;
-    height: 10vh;
+    height: 30vh;
     border-radius: 10px;
 }
 
