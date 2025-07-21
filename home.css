@@ -72,6 +72,7 @@ section {
     background-color: rgb(6, 6, 65);
     border-radius: 10px;
     margin-bottom: -60px;
+    padding: 10px;
 }
 
 
@@ -90,11 +91,18 @@ button{
 
 
 
-h1, h2 {
+h1 {
     color: white;
     font-size: 50px;
     font-weight: bold;
     margin-left: 30px;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
 }
 
 .main_desc {
@@ -353,13 +361,6 @@ button{
     font-weight: bold;
 }
 
-
-
-h1, h2 {
-    color: white;
-    font-weight: bold;
-    margin-left: 30px;
-}
 
 .main_desc {
     color: white;
