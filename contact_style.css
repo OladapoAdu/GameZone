@@ -211,10 +211,15 @@ button {
 }
 
 
+.details{
+    width: 90%;
+}
+
+
 
 .details_container {
     background-color: white;
-    width: 60%;
+    width: 80%;
     margin: 0;
     height: 80vh;
     display: flex;
@@ -227,9 +232,23 @@ button {
 
 
 
+.header{
+    width: 80%;
+}
+
+
+
+.info{
+    width: 80%;
+}
+
+
+
+
 .name {
     display: flex;
     flex-direction: column;
+    width: 90%;
 }
 
 
@@ -263,6 +282,12 @@ button {
     border: none;
     background-color: gray;
     border-radius: 5px;
+}
+
+
+
+.btn-div{
+    width: 30vw;
 }
 
 
